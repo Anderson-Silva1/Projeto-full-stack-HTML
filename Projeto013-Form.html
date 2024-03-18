@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="get" enctype="multipart/form-data">
+        <label for="nome">Digite seu nome: </label>
+        <input type="text" name="nome" id="nome" autofocus>
+        <br>
+        <label>
+            Digite seu sobrenome
+            <input type="text" name="sobrenome" id="sobrenome">
+        </label>
+        <br>
+        <label for="senha">
+            Digite sua senha
+            <input type="password" name="senha" id="senha">
+        <br>
+        </label>
+        <label for="senha">
+            Foto: 
+            <input type="file" name="arquivo" id="arquivo">
+        <br>
+        </label>
+        <label for="datanasc">
+            Digite sua data de nascimento
+            <input type="datetime-local" name="datanasc" id="datanasc">
+        </label>
+        <br>
+        <label for="enviar">
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar dados">
+        </label>
+        <label for="apagar">
+
+            <input type="reset" name="apagar" id="apagar" value="Apagar dados">
+        </label>
+    </form>
+</body>
+</html>
